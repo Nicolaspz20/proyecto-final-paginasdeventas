@@ -89,3 +89,6 @@ a{
 .mision{
     border-left: solid 8px rgb(165, 21, 21) !important;
 }
+.img-fluid{
+   box-shadow:3px 3px 5px 2px  rgb(165, 21, 21) ;
+}
