@@ -1,0 +1,91 @@
+
+.tarjetas{
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 100% ;
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+position: relative;
+height: 180px !important;
+box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+
+}
+.card-img-left{
+border: none !important;
+width: 160px;
+height: 130px;
+
+}
+.card-title{
+    position: absolute;
+   left: 18%;
+}
+.card-text{
+    position: absolute;
+    left: 18%;
+    top: 29%;
+    color:rgb(165, 28, 48) !important;
+    font-size: 40px;
+   
+}
+.btn{
+position: absolute;
+left: 18%;
+bottom: 10%;
+
+}
+
+footer{
+    position: absolute;
+    top: 3200px;
+    width: 100%;
+}
+
+@media (max-width:600px){
+.tarjetas{
+    position: absolute;
+    left: 0% !important;
+    width: 100%;
+    margin: 0%;
+}
+.card{
+    height: 400px !important;
+}
+.card-img-left{
+    position: absolute;
+    left: 20%;
+}
+.card-title{
+    position: absolute;
+    top: 45%;
+}
+.card-text{
+    position: absolute;
+    top: 70%;
+}
+footer{
+    position: absolute;
+    top: 6400px;
+    width: 100%;
+}
+.contenedor-icono i{
+    position: absolute;
+    left: -168%;
+    
+    top: 80%;
+}
+}
+
+.contenedor-icono i{
+    font-size: 30px ;
+    margin-left: 1050px;
+    color: black;
+}
+.contenedor-icono i:hover{
+    color: aliceblue;
+}

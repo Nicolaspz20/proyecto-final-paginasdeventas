@@ -1,0 +1,91 @@
+body{
+    background-color: white;
+    
+}
+.navegador{
+    background-color: rgb(165, 28, 48);
+    box-shadow: 5px 5px 30px;
+    border-radius: 2px;
+    width: 100% !important;
+    color: #000 !important;
+    z-index: 100;
+}
+.navegador1:hover{
+    color: aliceblue !important;
+
+}
+
+
+.principal{
+    position: absolute;
+    top: 11%;
+width: 100% !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+ box-sizing: border-box;
+  
+}
+.titulo{
+    
+    position: absolute;
+    left: 45%;
+    width: 55%;
+}
+.form{
+    width: 400px;
+    background:rgb(165, 28, 48);
+    padding: 30px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+font-family:'calibri';
+color: white;
+box-shadow: 7px 13px 37px #000;
+}
+.Contactos h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controles{
+    width: 100%;
+ background-color: #000;
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 16px;
+border: 1px solid #200500;
+font-family: 'calibri';
+font-size: 18px;
+color: white;
+}
+.boton{
+width: 100%;
+background: rgb(87, 5, 17);
+border: none;
+padding: 12px;
+color: white;
+margin: 16px 0;
+font-size: 16px;
+}
+.mapa{
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   border-radius: 40px !important;
+   width: 100%;
+   height: 400px;
+} 
+.subtitulo{
+    font-size: 50px;
+    font-family: 'calibri';
+    color:rgb(87, 5, 17) ; 
+    text-align: center;
+    
+}
+a{
+    color: #000 !important;
+}
+.mision{
+    border-left: solid 8px rgb(165, 21, 21) !important;
+}

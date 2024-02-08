@@ -1,0 +1,165 @@
+.navegador{
+    background-color: rgb(165, 28, 48);
+    box-shadow: 5px 5px 30px;
+    border-radius: 2px;
+    width: 100% !important;
+    color: black !important;
+}
+.navegador1:hover{
+    color: aliceblue !important;
+
+}
+
+
+.principal{
+    position: absolute;
+    top: 11%;
+width: 100% !important;
+
+
+}
+.imagen{
+    position: absolute;
+left: 0%;
+width: 40%;
+top: 190%;
+}
+.imagen1{
+width: 100%;
+
+}
+
+.titulo{   
+    position: absolute;
+    left: 45%;
+    width: 55%;
+    top: 100%;  
+}
+.precios{
+    position: absolute ;
+    left: 45%;
+    top: 30%;  
+
+}
+.boton{
+    background-color: rgb(165, 28, 48) !important; 
+    box-shadow: 3px 3px 5px !important;
+   
+}
+.boton:hover{
+    background-color: rgb(200, 87, 87) !important;
+    box-shadow: 1px 1px 0px !important;
+}
+.descripcion{
+position: absolute !important;
+top: 80%;
+display: flex;
+flex-direction: column;
+
+
+}
+
+.cuotas{
+    margin-top: 10px;
+    margin-bottom: 10px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ font-size: 30px;
+ width: 700px;
+ text-align: center;
+ align-items: center;
+ height: 200px;
+
+}
+.especial{
+    font-size: 15px;
+    color: rgb(165, 28, 48) ;
+    text-align: center;
+    margin: 0%
+}
+.especialp{
+    color:rgb(165, 28, 48) ;
+    font-size: 40px;
+    text-align: center;
+    margin: 0%; 
+}
+.interes{ display: flex;
+    width: 500px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    border: solid rgb(165, 28, 48) ;
+    border-radius: 10px;
+    border-width: 3px ;
+
+}
+.lista{
+    font-size: 20px;
+    color: black;
+}
+
+@media(  max-width:600px ){ 
+
+
+
+.navegador{
+    z-index: 100;
+}
+    .imagen{
+        width: 100%;
+        position: absolute ;
+        top: 50px;
+    }
+.titulo{
+    position: absolute !important;
+    top: 480px;
+    left: 0%;
+    text-align: center;
+    
+    width: 370px;
+}
+
+    .precios {
+        position: absolute ;
+        top: 110% ;
+        left:5%;
+        width: 380px;
+        
+    }
+   .cuotas{
+   border: none !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+   }
+   .interes{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 100%;
+    position: absolute;
+    top: 140px;
+
+   }
+    .garantia{
+        position: absolute;
+        top: 350px;
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+        width: 100%;
+    }
+
+.descripcion{
+    position: absolute;
+    top: 1300px;
+
+}
+
+
+}

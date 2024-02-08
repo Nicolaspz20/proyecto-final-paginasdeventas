@@ -1,0 +1,80 @@
+.navegador{
+    background-color: rgb(165, 28, 48);
+    box-shadow: 5px 5px 30px;
+    border-radius: 2px;
+    width: 100% !important;
+}
+.navegador1:hover{
+    color: aliceblue !important;
+
+}
+
+.principal{
+    position: absolute;
+    top: 11%;
+width: 100% !important;
+
+}
+.precio{
+    display: inline;
+    margin-left: 40px;
+}
+.titulo{
+    
+    position: absolute;
+    left: 45%;
+    width: 55%;
+}
+a{
+    color: black !important;
+}
+.Productos{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+width: 80%;
+margin-left: 150px;
+margin-top: 50px;
+}
+.card{
+    border-radius: 7px;
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12) !important;  
+}
+.subtitulo{
+   
+   width: 100% !important;
+    text-align: center;
+    font-size: 5rem;
+    margin-right: 400px;
+    margin-top: 60px;
+}
+.card-title{
+    color: black;
+}
+.form-check{
+    color: black;
+}
+.boton{
+   
+    width: 10%;
+    height: 15%;
+    margin-top: 50px;
+    margin: 2% 0% 0% 60%;
+  
+}
+.total{
+    font-size:30px;
+}
+
+@media(max-width:600px)
+{.Productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 2700px;
+    margin-left: 0%;
+}
+
+}

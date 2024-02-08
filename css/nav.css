@@ -1,0 +1,33 @@
+.contenedor-icono i{
+    font-size: 30px ;
+    margin-left: 4400%;
+    color: black;
+}
+.contenedor-icono i:hover{
+    color: aliceblue;
+}
+.navegador{
+    background-color: rgb(165, 28, 48);
+    box-shadow: 5px 5px 30px;
+    border-radius: 2px;
+    width: 100% !important;
+    color: black !important;
+    z-index: 10000 !important;
+}
+.navegador1:hover{
+    color: aliceblue !important;
+
+}
+
+@media(max-width:600px){
+    .contenedor-icono i{
+        position: absolute  !important;
+        margin-left: 0%;
+        left: 88% ;
+        top: 80%;
+        z-index: 100;
+        color: black;
+    }
+    }
+    
+
