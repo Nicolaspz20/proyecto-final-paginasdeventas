@@ -1,6 +1,6 @@
 .contenedor-icono i{
-    font-size: 30px ;
-    margin-left: 4400%;
+    font-size: 33px ;
+        margin-left: 50% !important;
     color: black;
 }
 .contenedor-icono i:hover{
@@ -23,11 +23,22 @@
     .contenedor-icono i{
         position: absolute  !important;
         margin-left: 0%;
-        left: 88% ;
-        top: 80%;
+        left: 41% ;
+        top: 81%;
         z-index: 100;
         color: black;
+        font-size: 33px;
     }
     }
     
 
+    @media(min-width:800px){
+.contenedor-icono .bi-cart-fill{
+ position: absolute !important;
+margin-left: 60% !important;
+top: 19%;
+z-index: 100;
+color: black;
+
+        }
+    }
